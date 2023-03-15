@@ -45,7 +45,7 @@ var questions = [
     },
     ]
 
-    
+
 
 console.log (questions[0]);
 
@@ -54,12 +54,15 @@ function startQuiz() {
     // mainQuizSection.style.display = "none";
     topHeader.style.display = "none";
 
-    const prompts = document.createElement("p");
-    prompts.innerText = questions[0].prompt;
+    var currentQuestionIndex = 0;
+    questions[currentQuestionIndex];
+    return;
 
-    mainQuizSection.appendChild(prompts);
+    // const prompts = document.createElement("p");
+    // prompts.innerText = questions[0].prompt;
+    // mainQuizSection.appendChild(prompts);
 
-    var answerList
+    // var answerList
 
 }
 
