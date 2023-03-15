@@ -10,19 +10,54 @@
 
 <body>
     
-    <header class = "top-header"
-         <a id=#view-high-scores href="#view-high-scores">View high scores</a>
-            <p class = "time"></p>
+    <header id = "top-header"
+         <a id=#view-high-scores href="#highScores">View high scores</a>
+            <p class = "time"> Timer </p>
                 <div class = "intro">
                     <h1> Coding Quiz Challenge </h1>
                     <h2>Try to answer the following code-related questions within the time limit.  Keep in mind that incorrect answers will penalize your score/time by ten seconds!
                     </h2>
                 </div>
-                    <div class = "start-button"> START 
-                     </div>
+                    <button class = "start-button"> START 
+                    </button>
     </header>
 
-    <main class = "main-quiz">
+    <main id = "main-quiz">
+        
+    
+
+
+
+        <div class = "all-done">
+            All done!
+        </div>
+         <div class = final-score>
+            Your final score is __.
+        </div>
+        <div class = "enter-initials">
+            Enter Initials:
+        </div>
+        <button class = submit-button>
+            SUBMIT
+        </button>
+
+        
+        <div id = highScores>
+            High Scores Page
+        </div>
+        <div class = "high-scores-list">
+            List of high scores
+        </div>
+        <button class = goBack-button>
+            Go Back
+        </button>
+        <button class = clearScoresBtn>
+            Clear High Scores
+        </button>
+       
+    
+   
+        
     </main>
 
     <script src = "/Assets/script.js"></script> 
