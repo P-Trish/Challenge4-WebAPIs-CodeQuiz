@@ -1,7 +1,7 @@
 var startButton = document.querySelector(".start-button");
 var mainQuizSection = document.getElementById("main-quiz");
 var topHeader = document.getElementById("top-header");
-
+var currentQuestionIndex = 0
 var questions = [
     {
         prompt: "Commonly used data types DO NOT Include: ",
@@ -47,16 +47,20 @@ var questions = [
 
 
 
-console.log (questions[0]);
-
 function startQuiz() {
     mainQuizSection.innerHTML = "";
     // mainQuizSection.style.display = "none";
     topHeader.style.display = "none";
 
-    var currentQuestionIndex = 0;
-    questions[currentQuestionIndex];
-    return;
+   
+    console.log(questions[currentQuestionIndex].prompt);
+
+    var questionEl = document.createElement("p");
+        questionEl.textContent = questions[currentQuestionIndex].prompt
+        mainQuizSection.append(questionEl);
+
+    var answersEl 
+
 
     // const prompts = document.createElement("p");
     // prompts.innerText = questions[0].prompt;
@@ -65,6 +69,9 @@ function startQuiz() {
     // var answerList
 
 }
+
+// add data answer attribute to answer button 
+
 
 
 
