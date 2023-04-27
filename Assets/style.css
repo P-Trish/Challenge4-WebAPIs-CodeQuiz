@@ -1,0 +1,8 @@
+#main-quiz {
+display:flex;
+flex-direction: column;
+}
+
+#main-quiz button{
+width: 100px;
+}

@@ -9,7 +9,7 @@ var questions = [
         answer2: "Boolean",
         answer3: "Alerts",
         answer4: "Numbers",
-        correctAnswer: "Alerts",
+        correctAnswer: 3,
     },
     {
         prompt: "The condition if an if'else statement is enclosed within ______.",
@@ -59,7 +59,29 @@ function startQuiz() {
         questionEl.textContent = questions[currentQuestionIndex].prompt
         mainQuizSection.append(questionEl);
 
-    var answersEl 
+    var answerEl1 = document.createElement("button");
+        answerEl1.setAttribute("id","1");
+        answerEl1.textContent = questions[currentQuestionIndex].answer1
+        mainQuizSection.append(answerEl1);
+
+    var answerEl2 = document.createElement("button");
+        answerEl2.setAttribute("id","2");
+        answerEl2.textContent = questions[currentQuestionIndex].answer2
+        mainQuizSection.append(answerEl2);
+
+    var answerEl3 = document.createElement("button");
+        answerEl3.setAttribute("id","3");
+        answerEl3.textContent = questions[currentQuestionIndex].answer3
+        mainQuizSection.append(answerEl3);
+
+    var answerEl4 = document.createElement("button");
+        answerEl4.setAttribute("id","4");
+        answerEl4.textContent = questions[currentQuestionIndex].answer4
+        mainQuizSection.append(answerEl4);
+
+
+
+
 
 
     // const prompts = document.createElement("p");
@@ -70,9 +92,13 @@ function startQuiz() {
 
 }
 
+function quizButtonHandler () {
+console.log("WRONG!")
+};
+
 // add data answer attribute to answer button 
 
-
+mainQuizSection.addEventListener("click", quizButtonHandler);
 
 
 startButton.addEventListener("click", startQuiz);
