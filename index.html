@@ -12,7 +12,7 @@
     <!-- Header with view high scores button should take you to leader board and timer that starts when quiz starts  -->
     <header id = "top-header"
          <a id=#view-high-scores href="#highScores">View high scores</a>
-            <p class = "time"> Timer </p>
+    
                 <div class = "intro">
                     <h1> Coding Quiz Challenge </h1>
                     <h2>Try to answer the following code-related questions within the time limit.  Keep in mind that incorrect answers will penalize your score/time by ten seconds!
@@ -22,44 +22,29 @@
                     </button>
     </header>
 
+    <p id = "time"> Timer: </p>
+
     <!-- Main quiz will be in js -->
     <main id = "main-quiz">
         
-    
-
-
-<!-- all done page where user enters initials where score/time is recorded and submitted to high schores page  -->
-        <div class = "all-done">
-            All done!
-        </div>
-         <div class = final-score>
-            Your final score is __.
-        </div>
-        <div class = "enter-initials">
-            Enter Initials:
-        </div>
-        <button class = submit-button>
-            Submit High Score 
-        </button>
-
-<!-- high scores page - to be saved to local storage  -->
-        <div id = highScores>
-            High Scores Page
-        </div>
-        <div class = "high-scores-list">
-            List of high scores
-        </div>
-        <button class = goBack-button>
-            Go Back
-        </button>
-        <button class = clearScoresBtn>
-            Clear High Scores
-        </button>
-       
-    
-   
-        
     </main>
+
+    <!-- all done page where user enters initials where score/time is recorded and submitted to high schores page  -->
+<div class = "all-done-page" hidden>
+    <div class = "all-done">
+        All done!
+    </div>
+     <div id = final-score >
+        Your final score is __.
+    </div>
+    <div class = "enter-initials">
+        Enter Initials:
+    </div>
+    <button class = submit-button>
+        Submit High Score 
+    </button>
+</div>
+
 
     <script src = "/Assets/script.js"></script> 
 
