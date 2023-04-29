@@ -1,4 +1,4 @@
-# Challenge4-WebAPIs-CodeQuiz
+# How Well Do You Know JavaScript? Code Quiz 4
 
 ## Description
 This code quiz is a timed coding quiz with multiple-choice questions that runs in the browser and powered to be dynamic with JavaScript.  
