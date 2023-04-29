@@ -14,7 +14,19 @@ The problem that this app solves is that it helps the user to practice their Jav
 N/A
 
 ## Usage
-In the browser click the start button to begin the quiz. This also starts the timer that subtracts 10 seconds from the running time if a question is answered incorrectly.  Once the question is answered another question is presented.  After all questions are answered or the timer reachers zero, the game is over and you are able to see your score and save it by entering your initials.  This should take you to a high scores page where you can see other players scores in comparison.  
+In the browser click the start button to begin the quiz. 
+
+![alt text](./assets/images/HW4_1.png)
+
+This also starts the timer that subtracts 10 seconds from the running time if a question is answered incorrectly. 
+
+![alt text](./assets/images/HW4_2.png)
+
+Once the question is answered another question is presented.  After all questions are answered or the timer reachers zero, the game is over and you are able to see your score and save it by entering your initials.  
+
+![alt text](./assets/images/HW4_3.png)
+
+This should take you to a high scores page where you can see other players scores in comparison.  
 
 
 ## Credits
